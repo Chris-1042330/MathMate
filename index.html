@@ -14,30 +14,54 @@
         <script src="js/home.js"></script> 
     </head>
     <!--Wireframe Home: https://wireframe.cc/1rzw12 -->
-    <body class="container-fluid">
-
-        <header class="row w-100 h-100 align-items-center">
-            <section class="col-sm-4">
-                <img src="img/logo.png" class="img-fluid">
+    <body>
+        <header class="row align-items-center w-100 h-100">
+            <section class="col-md-4">
+                <img src="img/logo.png" class="img-fluid logo">
             </section>
-            <section>
-                <nav class="nav ml-5">
-                    <a class="nav-link" href>Home</a>
-                    <a class="nav-link" href>Berekeningpagina</a>
-                    <a class="nav-link" href>asdasdas</a>
-                    <a class="nav-link" href>asdasdas</a>
-                </nav>
-            </section>
+            <nav class="navbar col justify-content-end">
+                <a class="nav-link" href="index.html">Home</a>
+                <section class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </button>
+                    <section class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Something else here</button>
+                    </section>
+                </section>
+                <a class="nav-link" href>asdasdas</a>
+                <a class="nav-link" href>asdasdas</a>
+                <section class="dropdown ml-5">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        🙍‍♂️
+                    </button>
+                    <section class="dropdown-menu-right dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button">Action</button>
+                        <button class="dropdown-item" type="button">Another action</button>
+                        <button class="dropdown-item" type="button">Uitloggen</button>
+                    </section>
+                </section>
+            </nav>
         </header>
 
-        <main>
+        <main class="container-fluid">
             <section>
                 Welkom!
             </section>
         </main>
 
-        <footer>
-
+        <footer class="row align-items-center w-100">
+            <section class="col-md-4">
+                <img src="img/logo.png" class="img-fluid logo">
+            </section>
+            <nav class="navbar col justify-content-end">
+                <a class="nav-link" href="">FAQ</a>
+                <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="">FAQ</a>
+                <a class="nav-link" href="">Contact</a>
+            </nav>
         </footer>
     <!-- Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

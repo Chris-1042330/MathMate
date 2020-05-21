@@ -1,18 +1,36 @@
 *{margin: 0; padding: 0;}
 
 @media (min-width: 576px){
-
+    .logo{
+        width: 500px;
+    }
 }
 @media (min-width: 768px){
-    
+    .logo{
+        width: 100%;
+    }
 }
 @media (min-width: 992px){
-    
-}
+    .logo{
+        width: 75%;
+    }
+} 
 @media (min-width: 1200px){
-    
+    .logo{
+        width: 50%;
+    }
 }
-
+header{
+    border-bottom: 1px gray solid;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+    header a, .dropdown button{
+        color: dimgray;
+    }
+    header a:hover{
+        color: rgb(50, 50, 50);
+    }
 :root{
     --color1: #4d589f;
     --color2: #34429b;
@@ -20,7 +38,19 @@
     --color4: #;
     --color5: #;
 }
-
+footer{
+    background-color: var(--color2);
+    color: white;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+    footer a{
+        color: white;
+    }
+    footer a:hover{
+        color: lightgray;
+    }
+    
 main{
     min-height: calc(100vh - 70px);
 }
