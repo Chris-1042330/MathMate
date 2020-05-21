@@ -13,16 +13,14 @@
     
 }
 
+:root{
+    --color1: #4d589f;
+    --color2: #34429b;
+    --color3: #151E5D;
+    --color4: #;
+    --color5: #;
+}
 
-/* @media only screen and (min-width: 1025px){
-    
-    }
-@media only screen and  (min-width: 361px) AND (max-width: 1024px) {
-
-    }
-@media only screen and (max-width: 415px){
-    
-} */
 main{
     min-height: calc(100vh - 70px);
 }
