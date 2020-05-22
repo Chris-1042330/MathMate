@@ -20,16 +20,19 @@
         width: 50%;
     }
 }
+body{
+    background-color: rgb(244, 244, 244);
+}
 header{
     border-bottom: 1px gray solid;
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
     header a, .dropdown button{
-        color: dimgray;
+        color: dimgray !important;
     }
-    header a:hover{
-        color: rgb(50, 50, 50);
+    header a:hover, .dropdown button:hover{
+        color: rgb(50, 50, 50) !important;
     }
 :root{
     --color1: #4d589f;
