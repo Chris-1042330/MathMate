@@ -1,0 +1,58 @@
+@media (max-width: 576px){
+    .Ads{
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 576px){
+    .Ads{
+        margin-bottom: 5%;
+        max-width: 50%;
+    }
+    .Ad{
+        justify-content: space-between
+    }
+    .line{
+        display: none;
+    }
+}
+@media (min-width: 768px){
+    .Ads{
+        max-width: 20%;
+    }
+    .line{
+        display: none;
+    }
+}
+@media (min-width: 992px){
+    .line{
+        display: none;
+    }
+    .Ads{
+        max-width: 20%;
+    }
+    .Ad{
+        justify-content: space-between
+    }
+} 
+@media (min-width: 1200px){
+    .line{
+        display: none;
+    }
+    .Ads{
+        max-width: 20%;
+    }
+    .Ad{
+        justify-content: space-evenly
+    }
+}
+    
+.Ad{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+    .HeadAd{
+        max-width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }

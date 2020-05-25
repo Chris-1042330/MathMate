@@ -1,25 +1,82 @@
 *{margin: 0; padding: 0;}
-
+@media (max-width: 575px){
+    .logo{
+        width: 70vw;
+    }
+    .desktopNav{
+        display: none;
+    }
+    .mobileNav .btn{
+        font-size: 7vw;
+    }
+        .mobileNav .dropdown-item{
+            width: 100vw;
+            padding: .75rem 1.5rem;
+        }
+}
 @media (min-width: 576px){
     .logo{
-        width: 500px;
+        width: 250px;
+    }
+    .desktopNav{
+        display: none;
+    }
+    .mobileNav .btn{
+        font-size: 1.5rem;
+    }
+    .mobileNav .dropdown-menu{
+        padding: .75rem 0;
+    }
+    .mobileNav .dropdown-item{
+        width: 100vw;
+        padding: .75rem 1.5rem;
     }
 }
 @media (min-width: 768px){
     .logo{
-        width: 100%;
+        width: 30vw;
+    }
+    .mobileNav .btn{
+        font-size: 1.5rem;
     }
 }
 @media (min-width: 992px){
     .logo{
-        width: 75%;
+        width: 225px;
+    }
+    
+    .mobileNav{
+        display: none;
+    }
+    .desktopNav{
+        display: flex;
+    }
+    .mobileNav .btn{
+        font-size: 1.5rem;
     }
 } 
 @media (min-width: 1200px){
     .logo{
-        width: 50%;
+        width: 225px;
+    }
+    .mobileNav{
+        display: none;
+    }
+    .desktopNav{
+        display: flex;
+    }
+    .mobileNav .btn{
+        font-size: 1.5rem;
     }
 }
+:root{
+    --color1: #4d589f;
+    --color2: #34429b;
+    --color3: #151E5D;
+    --color4: #;
+    --color5: #;
+}
+
 body{
     background-color: rgb(244, 244, 244);
 }
@@ -29,18 +86,30 @@ header{
     margin-right: 0 !important;
 }
     header a, .dropdown button{
-        color: dimgray !important;
-    }
-    header a:hover, .dropdown button:hover{
         color: rgb(50, 50, 50) !important;
     }
-:root{
-    --color1: #4d589f;
-    --color2: #34429b;
-    --color3: #151E5D;
-    --color4: #;
-    --color5: #;
+    header a:hover, .dropdown button:hover{
+        color: dimgray !important;
+    }
+    main{
+        min-height: calc(100vh - 70px);
+    } 
+        main .btn{
+            background-color: var(--color2);
+            border: none;
+        }
+        main .btn:hover{
+            background-color: var(--color3);
+        }
+
+.mobileNav{
+    text-align: right;
 }
+    .mobileNav .btn{
+        text-decoration: none;
+        list-style-type: none;
+    }
+
 footer{
     background-color: var(--color2);
     color: white;
@@ -49,11 +118,9 @@ footer{
 }
     footer a{
         color: white;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out;
     }
     footer a:hover{
         color: lightgray;
     }
     
-main{
-    min-height: calc(100vh - 70px);
-}
