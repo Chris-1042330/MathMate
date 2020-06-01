@@ -2,6 +2,10 @@
     .Ads{
         margin-bottom: 5%;
     }
+    .mascotte{
+        width: 20vw;
+    }
+    
 }
 @media (min-width: 576px){
     .Ads{
@@ -9,10 +13,13 @@
         max-width: 50%;
     }
     .Ad{
-        justify-content: space-between
+        justify-content: space-evenly
     }
     .line{
         display: none;
+    }
+    .mascotte{
+        width: 20vw;
     }
 }
 @media (min-width: 768px){
@@ -21,6 +28,9 @@
     }
     .line{
         display: none;
+    }
+    .mascotte{
+        width: 20vw;
     }
 }
 @media (min-width: 992px){
@@ -31,7 +41,10 @@
         max-width: 20%;
     }
     .Ad{
-        justify-content: space-between
+        justify-content: space-evenly
+    }
+    .mascotte{
+        width: 15vw;
     }
 } 
 @media (min-width: 1200px){
@@ -44,13 +57,38 @@
     .Ad{
         justify-content: space-evenly
     }
+    .mascotte{
+        width: 15vw;
+    }
 }
-    
+
+.Ad a:nth-child(1){
+    background-image: url("../img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Ad a h5{
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+.Ad a:nth-child(2){
+    background-color: black;
+}
+.Ad a:nth-child(4){
+    background-color: black;
+}
+.Ad a:nth-child(5){
+    background-color: black;
+}
+
+.mascotte{
+    margin: auto;
+}
 .Ad{
     margin-left: 0;
     margin-right: 0;
 }
-
     .HeadAd{
         max-width: 92%;
         margin-left: auto;
