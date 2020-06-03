@@ -1,4 +1,4 @@
-@media (max-width: 575px){
+/* @media (max-width: 575px){
 }
 @media (min-width: 576px){
 }
@@ -7,4 +7,14 @@
 @media (min-width: 992px){
 } 
 @media (min-width: 1200px){
+} */
+.row{
+    margin: 0;
 }
+    #invoer{
+        width: 91%;
+        height: 40px;
+    }
+    .veld button{
+        height: 60px;
+    }

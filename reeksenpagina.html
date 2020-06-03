@@ -66,13 +66,16 @@
         </header>
 
         <main class="container-fluid row mt-4">
-            <section class="col-md jumbotron " style="background-color: rgb(244, 244, 244);">
+            <section class="col-lg jumbotron" style="background-color: rgb(244, 244, 244);">
                 <p class="display-4 ">Reeks</p>
-                <input type="number" id="invoer"><br>
-                <button onclick="Ontbinden()">Ontbinden</button>
-                <button onclick="Fibonacci()">Fibonacci</button>
+                <section class="veld">
+                    <input type="number" id="invoer" placeholder="Voer hier een getal in"><br>
+                    <button onclick="Ontbinden()" style="width: 45%;">Ontbinden</button>
+                    <button onclick="Fibonacci()" style="width: 45%;">Fibonacci</button><br>
+                    <button onclick="PriemgetallenZien()" style="width: 91%;">Priemgetallen</button>
+                </section>
             </section>
-            <section class="col-md jumbotron rounded">
+            <section class="col-lg jumbotron rounded">
                 <p class="display-4">Resultaat</p>
                 <section id="result">
 
