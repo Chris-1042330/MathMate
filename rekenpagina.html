@@ -16,7 +16,7 @@
         <script src="js/rekenen.js"></script> 
     </head>
     <!--Wireframe Home: https://wireframe.cc/1rzw12 -->
-    <body>
+    <body onload="opzetKeuze()">
         <header class="row align-items-center w-100 h-100">
             <section class="col-3 ">
                 <img src="img/logo.png" class="img logo">
@@ -64,29 +64,29 @@
         </header>
 
         <main class="container-fluid row mt-4">
-            <section class="col-md jumbotron" style="background-color: rgb(244, 244, 244);">
+            <section class="col-lg jumbotron" style="background-color: rgb(244, 244, 244);">
                 <p class="display-4 ">Rekenpagina</p>
                     <section class="row w-100">
-                        <select id="Variant" class="w-100 mt-3">
+                        <select id="Variant" class="w-100 mt-2">
                             <option onclick="opzetKeuze()">Tafel</option>
                             <option onclick="opzetKeuze()">Macht</option>
                             <option onclick="opzetKeuze()">Kwadraat</option>
                             <option onclick="opzetKeuze()">Breuk</option>
                         </select>
                     </section>
-                    <section class="row w-100 mt-3">
+                    <section class="row w-100 mt-5">
                         <input class="w-100" type="number" placeholder="Invoer" id="invoer">
                     </section>
                     <section class="row w-100 mt-3">
                         <input class="w-100" type="number" placeholder="Tot" id="tot">
                     </section>
-                    <section class="row w-100 mt-3">
-                        <button class="w-100 " onclick="Keuze()">Submit</button>
+                    <section class="row w-100 mt-2">
+                        <button class="w-100 " onclick="Keuze()">Voer berekening uit!</button>
                     </section>
             </section>
-            <section class="col-md jumbotron rounded">
+            <section class="col-lg jumbotron rounded">
                 <p class="display-4">Resultaat</p>
-                <section id="result"    >
+                <section id="result">
 
                 </section>
             </section>

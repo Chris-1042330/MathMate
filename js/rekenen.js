@@ -54,7 +54,7 @@ function Machten(){
     var resultaat = "";    
     var invoer = document.getElementById('invoer').value;
     var limit = document.getElementById('tot').value;
-    for(var i = 0; i <= 15; i++){
+    for(var i = 0; i <= limit; i++){
         resultaat += invoer + "<sup>" + i + "</sup> = " + (Math.pow(invoer, i)) + "<br>";
     }
     return resultaat;

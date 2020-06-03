@@ -1,6 +1,12 @@
 main input, main  select, main  button{
     height: 50px;
 }
+
 .row{
     margin: 0;
+}
+input, select{
+    padding-left: 2%;
+    padding-right: 1%;
+    font-size: 120%;
 }
