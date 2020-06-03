@@ -22,11 +22,6 @@ function PriemgetallenZien(){
     for(i = 0; i <= invoer; i++){
         priem.push(true);
     }
-
-    if(invoer==0 || invoer==1){
-        document.getElementById("result").innerHTML += "DIT IS NIET DEELBAAR";
-    }
-
     for(i=2;i<=invoer;i++){
         // document.getElementById("result").innerHTML += i + " * ";
         if(priem[i]){
