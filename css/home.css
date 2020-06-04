@@ -2,7 +2,7 @@
     .Ads{
         margin-bottom: 5%;
     }
-    .mascotte{
+    .jumbotron img{
         width: 20vw;
     }
     
@@ -18,7 +18,7 @@
     .line{
         display: none;
     }
-    .mascotte{
+    .jumbotron img{
         width: 20vw;
     }
 }
@@ -29,7 +29,7 @@
     .line{
         display: none;
     }
-    .mascotte{
+    .jumbotron img{
         width: 20vw;
     }
 }
@@ -43,7 +43,7 @@
     .Ad{
         justify-content: space-evenly
     }
-    .mascotte{
+    .jumbotron img{
         width: 15vw;
     }
 } 
@@ -57,7 +57,7 @@
     .Ad{
         justify-content: space-evenly
     }
-    .mascotte{
+    .jumbotron img{
         width: 15vw;
     }
 }
