@@ -109,7 +109,9 @@ header{
         text-decoration: none;
         list-style-type: none;
     }
-
+    .mobileNav .dropdown-menu{
+        margin-left: -7px;
+    }
 footer{
     background-color: var(--color2);
     color: white;

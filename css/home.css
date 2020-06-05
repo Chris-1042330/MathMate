@@ -62,25 +62,7 @@
     }
 }
 
-.Ad a:nth-child(1){
-    background-image: url("../img/logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-.Ad a h5{
-    font-weight: bolder;
-    background: rgba(0, 0, 0, 0.6);
-    color: #fff;
-}
-.Ad a:nth-child(2){
-    background-color: black;
-}
-.Ad a:nth-child(4){
-    background-color: black;
-}
-.Ad a:nth-child(5){
-    background-color: black;
-}
+
 
 .carousel-indicators li{
     background-color: var(--color3);
@@ -93,6 +75,25 @@
     margin-left: 0;
     margin-right: 0;
 }
+    .Ad a h5{
+        font-weight: bolder;
+        background: rgba(0, 0, 0, 0.6);
+        color: #fff;
+    }
+    .Ad a:nth-child(1){
+        background-image: url("../img/logo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    /* .Ad a:nth-child(2){
+        background-color: black;
+    } */
+    .Ad a:nth-child(4){
+        background-color: black;
+    }
+    .Ad a:nth-child(5){
+        background-color: black;
+    }
     .HeadAd{
         max-width: 92%;
         margin-left: auto;
