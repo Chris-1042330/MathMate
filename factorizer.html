@@ -1,4 +1,10 @@
 <!doctype html>
+<?php
+    session_start();
+    if(!isset($_SESSION['ingelogd'])){
+        header("Location: formdb.php");
+    }
+?>
 <html>
     <head>
         <meta charset="UTF-8">
@@ -7,13 +13,13 @@
         <meta name="keywords" content="">
         <meta name="author" content="Chris Aartman">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Reeksenpagina | MathMate</title>
+        <title>Ontbinder & Factorizer | MathMate</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/reeks.css">
+        <link rel="stylesheet" type="text/css" href="css/factorizer.css">
         <link rel="icon" href="img/icon.png">
-        <script src="js/reeks.js"></script> 
+        <script src="js/factorizer.js"></script> 
     </head>
     <!--Wireframe Home: https://wireframe.cc/1rzw12 -->
     <body>
@@ -33,7 +39,7 @@
                         <a class="dropdown-item" href="dobbelstenen.html">Dobbelstenen</a>
                         <a class="dropdown-item" href="games.html">Games</a>
                         <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-item" href=""><?php ?>username &#x1F464</h6>
+                        <h6 class="dropdown-item" href=""><?php echo ($_SESSION['user']) . "&#x1F464";?></h6>
                         <a class="dropdown-item" href="">Uitloggen</a>
                     </section>
                 </section>
@@ -53,7 +59,7 @@
                 <a class="nav-link btn" href="games.html">Games</a>
                 <section class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php ?>username &#x1F464
+                        <?php echo ($_SESSION['user']) . "&#x1F464";?>
                     </button>
                     <section class="dropdown-menu-right dropdown-menu w-100" aria-labelledby="dropdownMenu2">
                         <a class="dropdown-item" href="">Action</a>
@@ -66,7 +72,7 @@
 
         <main class="container-fluid row mt-4">
             <section class="col-lg jumbotron" style="background-color: rgb(244, 244, 244);">
-                <p class="display-4 ">Reeks</p>
+                <p class="display-4 ">Ontbinder</p>
                 <section class="veld">
                     <input type="number" id="invoer" placeholder="Voer hier een getal in"><br>
                     <button onclick="Fibonacci()" style="width: 45%;">Fibonacci</button>
