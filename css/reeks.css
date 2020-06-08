@@ -8,11 +8,17 @@
 } 
 @media (min-width: 1200px){
 } */
+
 .row{
     margin: 0;
 }
+input{
+    padding-left: 2%;
+    padding-right: 1%;
+    font-size: 120%;
+}
     #invoer{
-        width: 91%;
+        width: 90%;
         height: 40px;
     }
     .veld button{
