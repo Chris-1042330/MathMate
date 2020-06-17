@@ -34,7 +34,7 @@ if(!isset($_SESSION['ingelogd'])){
                     <section class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
                         <a class="dropdown-item" href="index.php">Home</a>
                         <a class="dropdown-item" href="reeksenpagina.php">Reeksenpagian</a>
-                        <a class="dropdown-item" href="berekeningenpagina.php">Berekeningenpagina</a>
+                        <a class="dropdown-item" href="factorizer.php">Factor Ontbinder</a>
                         <a class="dropdown-item" href="rekenpagina.php">Rekenpagina</a>
                         <a class="dropdown-item" href="dobbelstenen.php">Dobbelstenen</a>
                         <a class="dropdown-item" href="games.php">Games</a>
