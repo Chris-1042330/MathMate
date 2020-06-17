@@ -2,7 +2,7 @@
 <?php
     session_start();
     if(isset($_SESSION['ingelogd'])){
-        header("Location: ingelogddb.php");
+        header("Location: index.php");
     }
     $error = "";
     if(isset($_POST['submit'])){
@@ -22,7 +22,7 @@
                     session_start();
                     $_SESSION['user'] = $username;
                     $_SESSION['ingelogd'] = true;
-                    header("Location: ingelogddb.php");
+                    header("Location: index.php");
                     
                 }
                 else{

@@ -1,9 +1,9 @@
 <!doctype html>
 <?php
-    session_start();
-    if(!isset($_SESSION['ingelogd'])){
-        header("Location: formdb.php");
-    }
+session_start();
+if(!isset($_SESSION['ingelogd'])){
+    header("Location: inlogpagina.php");
+}
 ?>
 <html>
     <head>
@@ -32,34 +32,34 @@
                         &#9776
                     </button>
                     <section class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item" href="index.html">Home</a>
-                        <a class="dropdown-item" href="reeksenpagina.html">Reeksenpagian</a>
-                        <a class="dropdown-item" href="berekeningenpagina.html">Berekeningenpagina</a>
-                        <a class="dropdown-item" href="rekenpagina.html">Rekenpagina</a>
-                        <a class="dropdown-item" href="dobbelstenen.html">Dobbelstenen</a>
-                        <a class="dropdown-item" href="games.html">Games</a>
+                        <a class="dropdown-item" href="index.php">Home</a>
+                        <a class="dropdown-item" href="reeksenpagina.php">Reeksenpagian</a>
+                        <a class="dropdown-item" href="berekeningenpagina.php">Berekeningenpagina</a>
+                        <a class="dropdown-item" href="rekenpagina.php">Rekenpagina</a>
+                        <a class="dropdown-item" href="dobbelstenen.php">Dobbelstenen</a>
+                        <a class="dropdown-item" href="games.php">Games</a>
                         <div class="dropdown-divider"></div>
-                        <h6 class="dropdown-item" href=""><?php echo ($_SESSION['user']) . "&#x1F464";?></h6>
+                        <h6 class="dropdown-item" href=""><?php if(isset($_SESSION['user'])){echo $_SESSION['user'];}else{echo 'username';};?>&#x1F464</h6>
                         <a class="dropdown-item" href="">Uitloggen</a>
                     </section>
                 </section>
             <nav class="desktopNav navbar col justify-content-end align-items-center">
-                <a class="nav-link btn" href="index.html">Home</a>
+                <a class="nav-link btn" href="index.php">Home</a>
                 <section class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Berekeningen
                     </button>
                     <section class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item" href="reeksenpagina.html">Reeksenpagian</a>
-                        <a class="dropdown-item" href="berekeningenpagina.html">Berekeningenpagina</a>
-                        <a class="dropdown-item" href="rekenpagina.html">Rekenpagina</a>
+                        <a class="dropdown-item" href="reeksenpagina.php">Reeksenpagian</a>
+                        <a class="dropdown-item" href="berekeningenpagina.php">Berekeningenpagina</a>
+                        <a class="dropdown-item" href="rekenpagina.php">Rekenpagina</a>
                     </section>
                 </section>
-                <a class="nav-link btn" href="dobbelstenen.html">Dobbelstenen</a>
-                <a class="nav-link btn" href="games.html">Games</a>
+                <a class="nav-link btn" href="dobbelstenen.php">Dobbelstenen</a>
+                <a class="nav-link btn" href="games.php">Games</a>
                 <section class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <?php echo ($_SESSION['user']) . "&#x1F464";?>
+                        <?php if(isset($_SESSION['user'])){echo $_SESSION['user'];}else{echo 'username';}?>&#x1F464
                     </button>
                     <section class="dropdown-menu-right dropdown-menu w-100" aria-labelledby="dropdownMenu2">
                         <a class="dropdown-item" href="">Action</a>
