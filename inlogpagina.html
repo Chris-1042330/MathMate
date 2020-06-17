@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-<!-- <?php
+<?php
     session_start();
     if(isset($_SESSION['ingelogd'])){
-        header("Location: index.php");
+        header("Location: ingelogddb.php");
     }
     $error = "";
     if(isset($_POST['submit'])){
         if(!empty($_POST["user"]) && !empty ($_POST["pass"])){
-            require('dbconnect.php');
-
-            $username = trim($_POST["user"]);
-            $password = trim($_POST["pass"]);
+            require('lib/dbconnect.php');
+            require('lib/userconfig.php');
 
             $pass = password_hash($password, PASSWORD_BCRYPT);
 
-            $sql = "SELECT * FROM gebruikers WHERE username = '" . $username. "'";
+            $sql = "SELECT * FROM gebruikers WHERE username = '$username'";
             
             if($result = $conn->query($sql)){
                 $dbuser = $result->fetch_row();
@@ -25,14 +23,16 @@
                     $_SESSION['user'] = $username;
                     $_SESSION['ingelogd'] = true;
                     header("Location: ingelogddb.php");
+                    
                 }
                 else{
                     $error = "ERROR";
                 }
             }
         }
-    } 
-?> -->
+        $conn->close();
+    }
+?>
 <html>
     <head>
         <meta charset="UTF-8">
