@@ -1,42 +1,35 @@
 <!DOCTYPE html>
 <?php
-    $error = "";
-
     session_start();
-    if(isset($_SESSION['registered'])){
-        $error = $_SESSION['registered'];
-        session_destroy();
-        session_start();
-    }
     if(isset($_SESSION['ingelogd'])){
         header("Location: index.php");
     }
+    $error = "";
     if(isset($_POST['submit'])){
         if(!empty($_POST["user"]) && !empty ($_POST["pass"])){
             require('lib/dbconnect.php');
             require('lib/userconfig.php');
+            if(!empty ($_POST["email"])){
+                $email = safe($_POST["email"]);
+            }
+            else{
+                $email = NULL;
+            }
 
-            $sql = "SELECT * FROM gebruikers WHERE username = '$username'";
+            $password = password_hash($password, PASSWORD_BCRYPT);
+
+            $sql = "INSERT INTO gebruikers VALUES (NULL, '$username', '$password', '$email')";
             
             if($result = $conn->query($sql)){
-                $dbuser = $result->fetch_row();
-                $dbpass = $dbuser[2];
-                if(password_verify($password, $dbpass)){
-                    session_start();
-                    $_SESSION['user'] = $username;
-                    $_SESSION['ingelogd'] = true;
-                    header("Location: index.php");
-                }
-                else{
-                    $error = "Invalid user credentials!";
-                    echo $dbpass;
-                }
+                session_start();
+                $_SESSION['registered'] = "Je bent geregistreerd :DD";
+                header ('Location: inlogpagina.php');
             }
-            $conn->close();
+            else{
+                $error = "Error description: " . $conn->error;
+            }
         }
-        else{
-            $error = "Enter all required info!";
-        }
+        $conn->close();
     }
 ?>
 <html>
@@ -63,11 +56,12 @@
                     </section>
                     <h5 class="error"><?php echo $error ?></h5>
                     <form method="POST" class="row justify-content-center">
-                        <input type="text" name="user" placeholder="Username">
-                        <input type="password" name="pass" placeholder="Password">
-                        <input type="submit" class="btn btn-secondary px-4"  name="submit" value="Inloggen">
+                        <input type="text" name="user" placeholder="Username" required>
+                        <input type="password" name="pass" placeholder="Password" required>
+                        <input type="email" name="email" placeholder="Email Address">
+                        <input type="submit" class="btn btn-secondary px-4"  name="submit" value="Registreren">
                     </form>
-                <a href="register.php">Registreren</a>
+                <a href="inlogpagina.php">Inloggen</a>
             </section>
         </section>
 
