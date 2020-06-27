@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+<?php
+session_start();
+if(!isset($_SESSION['ingelogd'])){
+    header("Location: inlogpagina.php");
+}
+// require('header_loggedin.php');
+?>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="language" constent="NL">
@@ -14,29 +21,10 @@
 </head>
 <body>
     <main class="container">
-        <header>
-            <nav class="nav">
-                <div class='nav_standard'>
-                    <span>
-                        <!-- <a class="login" href="login.php">Log In</a>
-                        <a class="login" href="login.php">Log out</a> -->
-                    </span>
-                </div>
-                <span class='nav_img'>
-                    <img src="img/logo.png" alt="MathMate">
-                </span>
-                <div class='nav_extra'>
-                    <span>
-                        <a class="login" href="login.view.php">Log In</a>
-                    </span>
-                </div>
-            </nav>
-        </header>
-
         <button type="button" onclick='draaiRad()'>Draai</button><br>
         <button type="button" onclick='reset()'>reset</button>
-        <div>
-                    <p id="waarde">0</p>
+            <div>
+                <p id="waarde">0</p>
             <div>
                 <div class="rad">
                     <img src="img/dRad.png">
@@ -51,11 +39,13 @@
             </div>
 
             <!-- Voor meer plezier uncomment dit -->
-            <!-- <div>
-                <div class="rad"></div>
+            <div>
+                <div class="rad">
+                    <img src="img/dRad.png">
+                </div>
                 <img class="pijl" src="img/pijl.png">
-            </div> -->
+            </div>
         </div>
     </main>
-</body>
-</html>
+    
+<?php require('footer.php');?>
