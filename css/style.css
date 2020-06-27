@@ -91,6 +91,9 @@ header{
     header a:hover, .dropdown button:hover{
         color: dimgray !important;
     }
+    .desktopNav a{
+        padding: .375rem .75rem;
+    }
     main{
         min-height: calc(100vh - 70px);
     } 

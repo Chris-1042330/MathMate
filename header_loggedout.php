@@ -20,7 +20,7 @@
                         &#9776
                     </button>
                     <section class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <a class="nav-link btn" href="login.php">&#x1F464 Inloggen</a>
+                        <a class="nav-link btn" href="inlogpagina.php">&#x1F464 Inloggen</a>
                         <a class="nav-link btn" href="register.php">Registreren</a>
                     </section>
                 </section>

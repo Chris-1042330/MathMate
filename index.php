@@ -29,7 +29,7 @@ require('header_loggedin.php');
                                 <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
-                                <a class="btn btn-primary" href="about.php" role="button">Leer meer over ons!</a>
+                                <a class="btn btn-primary" href="presentatie.php" role="button">Leer meer over ons!</a>
                                 </p>
                             </section>
                         <section class="col-md">

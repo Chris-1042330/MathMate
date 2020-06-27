@@ -4,14 +4,13 @@ $menu = [
     'Reeksenpagina',
     'Factor Ontbinder',
     'Rekenpagina',
-    'Dobbelsteen']
+    'Rad van Fortuin']
 ?><html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="language" content="nl">
         <meta name="description" content="">
         <meta name="keywords" content="">
-        <meta name="author" content="Chris Aartman">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Home | MathMate</title>
         <!-- Bootstrap CSS -->
