@@ -1,4 +1,11 @@
-<html>
+<?php 
+$menu = [
+    'Home',
+    'Reeksenpagina',
+    'Factor Ontbinder',
+    'Rekenpagina',
+    'Dobbelsteen']
+?><html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="language" content="nl">
@@ -22,31 +29,29 @@
                         &#9776
                     </button>
                     <section class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item" href="index.php">Home</a>
-                        <a class="dropdown-item" href="reeksenpagina.php">Reeksenpagian</a>
-                        <a class="dropdown-item" href="factorizer.php">Factor Ontbinder</a>
-                        <a class="dropdown-item" href="rekenpagina.php">Rekenpagina</a>
-                        <a class="dropdown-item" href="dobbelstenen.php">Dobbelstenen</a>
-                        <a class="dropdown-item" href="games.php">Games</a>
+                        <a class="dropdown-item" href="index.php"><?php echo $menu[0]; ?></a>
+                        <a class="dropdown-item" href="reeksenpagina.php"><?php echo $menu[1]; ?></a>
+                        <a class="dropdown-item" href="factorizer.php"><?php echo $menu[2]; ?></a>
+                        <a class="dropdown-item" href="rekenpagina.php"><?php echo $menu[3]; ?></a>
+                        <a class="dropdown-item" href="dobbelstenen.php"><?php echo $menu[4]; ?></a>
                         <div class="dropdown-divider"></div>
                         <h6 class="dropdown-item" href=""><?php echo $_SESSION['user'];?> &#x1F464</h6>
                         <a class="dropdown-item" href="logout.php">Uitloggen</a>
                     </section>
                 </section>
             <nav class="desktopNav navbar col justify-content-end align-items-center">
-                <a class="nav-link btn" href="index.php">Home</a>
-                <section class="dropdown">
+                <a class="nav-link btn" href="index.php"><?php echo $menu[0]; ?></a>
+                        <a class="nav-link btn" href="reeksenpagina.php"><?php echo $menu[1]; ?></a>
+                        <a class="nav-link btn" href="factorizer.php"><?php echo $menu[2]; ?></a>
+                        <a class="nav-link btn" href="rekenpagina.php"><?php echo $menu[3]; ?></a>
+                <!-- <section class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Berekeningen
                     </button>
                     <section class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                        <a class="dropdown-item" href="reeksenpagina.php">Reeksenpagian</a>
-                        <a class="dropdown-item" href="factorizer.php">Factor Ontbinder</a>
-                        <a class="dropdown-item" href="rekenpagina.php">Rekenpagina</a>
                     </section>
-                </section>
-                <a class="nav-link btn" href="dobbelstenen.php">Dobbelstenen</a>
-                <a class="nav-link btn" href="games.php">Games</a>
+                </section> -->
+                <a class="nav-link btn" href="dobbelstenen.php"><?php echo $menu[4]; ?></a>
                 <section class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <?php echo $_SESSION['user'];?> &#x1F464
