@@ -21,8 +21,8 @@
 @media (min-width: 1200px){
     .modal-dialog{
         margin: auto;
-        -ms-transform: translateY(12.5vw);
-        transform: translateY(12.5vw);
+        -ms-transform: translateY(10.5vw);
+        transform: translateY(10.5vw);
     }
 }
 .logo{
@@ -31,7 +31,7 @@
 }
 
 
-input[type="text"], input[type="password"]{
+input[type="text"], input[type="password"], input[type="email"]{
     width: 90%;
     padding: 1% 1%;
     margin-top: 5%;
@@ -44,4 +44,7 @@ input[type="submit"]{
     font-size: 1.25rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+.error{
+    text-align: center;
 }

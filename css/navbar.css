@@ -1,0 +1,57 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	padding: 0 10%;
+	background-image: url("../img/mathmate.png");
+	background-size: cover;
+	height: 100vh;
+}
+
+.nav{
+	display: flex;
+	height: 150px;
+}
+
+.nav a {
+	font-size: 25px;
+	padding: 8px 16px;
+	color: #993333;
+}
+
+.nav a:hover {
+	color: #fc6436;
+}
+
+.nav div {
+	width: 33.33%;
+	overflow: hidden;
+	padding: 52px 0;
+}
+
+.nav div span {
+	width: 100%;
+}
+
+.nav_standard a {
+	float: left;
+}
+
+.nav_img {
+	padding: 25px 0;
+}
+
+.nav_img img {
+	display: block;
+	margin: auto;
+}
+
+.nav_extra a {
+	float: right;
+}

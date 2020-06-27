@@ -1,0 +1,51 @@
+.container{
+	overflow: auto;
+	clear: both;
+}
+
+div {
+	position: relative;
+	display: flex;
+}
+
+.rad {
+	width: 500px;
+	height: 500px;
+/*	background-image: url("../img/dRad.png");*/
+	background-size: cover;
+	display: block;
+}
+
+.rad p {
+	font-size: 45px;
+}
+
+.pijl{
+	width: 50px;
+	height: 75px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	top: -60px;
+	left: -30px;
+	right: 0;
+}
+
+#waarde {
+	font-weight: bold;
+	font-size: 50px;
+	position: relative;
+}
+
+button{
+	margin-right: 200px;
+	font-size: 25px;
+	background-color: red;
+	color: yellow;
+}
+
+button:hover{
+	background-color: yellow;
+	color: red;
+	transition: 1.5s;
+}
