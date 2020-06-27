@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 		 <!-- koppelen van overige style  -->
 		<script src="js/slideshow.js"></script> 
-		<link rel="stylesheet" type="text/css" href="css/#.css">
+		<link rel="stylesheet" type="text/css" href="css/standard.css">
 		<!-- optionieel -->
 		<link rel="stylesheet" type="text/css" href="css/presentatie.css">
 	<head>
