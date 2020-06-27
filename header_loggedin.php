@@ -41,16 +41,9 @@ $menu = [
                 </section>
             <nav class="desktopNav navbar col justify-content-end align-items-center">
                 <a class="nav-link btn" href="index.php"><?php echo $menu[0]; ?></a>
-                        <a class="nav-link btn" href="reeksenpagina.php"><?php echo $menu[1]; ?></a>
-                        <a class="nav-link btn" href="factorizer.php"><?php echo $menu[2]; ?></a>
-                        <a class="nav-link btn" href="rekenpagina.php"><?php echo $menu[3]; ?></a>
-                <!-- <section class="dropdown">
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Berekeningen
-                    </button>
-                    <section class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    </section>
-                </section> -->
+                <a class="nav-link btn" href="reeksenpagina.php"><?php echo $menu[1]; ?></a>
+                <a class="nav-link btn" href="factorizer.php"><?php echo $menu[2]; ?></a>
+                <a class="nav-link btn" href="rekenpagina.php"><?php echo $menu[3]; ?></a>
                 <a class="nav-link btn" href="dobbelstenen.php"><?php echo $menu[4]; ?></a>
                 <section class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
