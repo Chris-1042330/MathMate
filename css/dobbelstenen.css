@@ -1,8 +1,7 @@
 .container{
 	overflow: auto;
 	clear: both;
-}
-
+} 
 div {
 	position: relative;
 	display: flex;
