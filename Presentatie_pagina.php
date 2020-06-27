@@ -14,7 +14,7 @@
 		<script src="js/slideshow.js"></script> 
 		<link rel="stylesheet" type="text/css" href="css/#.css">
 		<!-- optionieel -->
-		<link rel="stylesheet" type="text/css" href="css/present.css">
+		<link rel="stylesheet" type="text/css" href="css/presentatie.css">
 	<head>
 	
 	<body class="container col-md-12 bg-light">
