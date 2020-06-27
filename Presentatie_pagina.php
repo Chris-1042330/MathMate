@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="css/standard.css">
 	<link rel="stylesheet" type="text/css" href="css/navbar.css">
 	<!-- optionieel -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/Presentatie.css">
 </head>
 <body>
 	<main class="container">
