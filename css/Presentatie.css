@@ -1,0 +1,33 @@
+.homepage{
+	width: 45%;
+	margin: auto;
+}
+
+.welkom_title{
+	font-size: 2rem;
+	text-align: center;
+}
+
+.welkom_content div{
+	margin: auto;
+	height: 50%;
+}
+
+.welkom_content p{
+	color: #993333;
+	font-size: 15px;
+}
+
+.slideshow div{
+	margin: auto;
+}
+
+.slideshow img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.active {
+	border: 5px solid lime;
+}
