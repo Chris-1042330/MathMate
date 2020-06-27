@@ -67,7 +67,11 @@
                         <input type="password" name="pass" placeholder="Password">
                         <input type="submit" class="btn btn-secondary px-4"  name="submit" value="Inloggen">
                     </form>
-                <a href="register.php">Registreren</a>
+                    <section class="register_form">
+                        <a href="register.php" >
+                            <button class="btn btn-secondary" type="submit" name="submit">Registreren</button>
+                        </a>
+                    </section>
             </section>
         </section>
 
