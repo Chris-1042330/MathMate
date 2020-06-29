@@ -16,15 +16,15 @@ require('header_loggedin.php');
         <meta name="keywords" constent="">
         <title>Rad van Fortuin | MathMate</title>
         <!-- koppelen van bootstrap -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
         <!-- koppelen van overige style -->
         <link rel="stylesheet" type="text/css" href="css/dobbelstenen.css">
         <script src='js/raderen.js'></script>
     </head>
-        <main class="row col-md-12 d-sm-block col-sm-12 mt-5 m-auto">
-            <div class="d-block">
-                <button class="radButton" type="button" onclick='draaiRad()'>Draai</button><br>
-                <button class="radButton" type="button" onclick='reset()'>reset</button>
+        <main class="row col-md-12 d-sm-block col-sm-12 mt-5">
+            <div class="d-block m-auto">
+                <button class="radButton col-md-1 col-sm-12" type="button" onclick='draaiRad()'>Draai</button><br>
+                <button class="radButton col-md-1 col-sm-12" type="button" onclick='reset()'>reset</button>
             </div>
 
             <div class="row col-md-12 m-auto">
