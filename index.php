@@ -48,8 +48,6 @@ require('header_loggedin.php');
                                 <a class="btn btn-primary" href="about.php" role="button">Leer meer over ons!</a>
                                 </p>
                             </section>
-                            <section class="col-md">
-                            </section>
                         </section>
                     </div>
                     <div class="carousel-item">
