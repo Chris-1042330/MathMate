@@ -24,9 +24,8 @@ require('header_loggedin.php');
                 </section><br><br>
                 <h4>Talstelselomrekenaar</h4>
                 <section class="veld">
-                    <input type="number" id="invoerB" placeholder="Voer hier een getal in">
-                    <input type="number" id="talBegin" placeholder="A" max="16" min="2">
-                    <input type="number" id="talEinde" placeholder="B" max="16" min="2"><br><br>
+                    <input type="number" id="invoerB" placeholder="Voer hier een getal in"><!--
+                  --><input type="number" id="talBegin" placeholder="A" max="16" min="2" value="10"><!--  --><input type="number" id="talEinde" placeholder="B" max="16" min="2"><br><br>
                     <button onclick="Talstelsel()" style="width: 90%;">Omrekenen</button>
                 </section>
             </section>

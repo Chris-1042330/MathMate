@@ -6,13 +6,15 @@ function Talstelsel(){
 
     var base_convert = function(number, initial_base, change_base) {
         if ((initial_base && change_base) <2 || (initial_base && change_base)>36)
-            return '?';
+            return '';
         
             return parseInt(number + '', initial_base)
             .toString(change_base);
      }
      
-     document.getElementById("result").innerHTML = base_convert(invoer,talBegin,talEinde).toUpperCase();
+    document.getElementById("result").innerHTML =
+    invoer+ ' (' + talBegin+')' + '<br><br>Uitkomst:' +
+    base_convert(invoer,talBegin,talEinde).toUpperCase() + ' (' + talEinde+')';
 }
 
 function Ontbinden(){
