@@ -14,7 +14,7 @@ require('header_loggedin.php');
         <meta name="description" constent="">
         <meta name="author" constent="">
         <meta name="keywords" constent="">
-        <title>Dobbel</title>
+        <title>Rad van Fortuin</title>
         <!-- koppelen van bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <!-- koppelen van overige style -->
@@ -22,8 +22,8 @@ require('header_loggedin.php');
         <script src='js/raderen.js'></script>
     </head>
 
-    <body class="container">
-        <main class="row col-md-12 d-sm-block col-sm-12 mt-5">
+    <body class="container col-md-12">
+        <main class="row col-md-12 d-sm-block col-sm-12 mt-5 m-auto">
             <div class="d-block">
                 <button type="button" onclick='draaiRad()'>Draai</button><br>
                 <button type="button" onclick='reset()'>reset</button>
@@ -34,7 +34,7 @@ require('header_loggedin.php');
                 <div class="row mt-5 ">
                     <div class="col-md-12 col-6 rad">
 
-                        <div class="rad">
+                        <div class="rad ml-5">
                             <img class="pijl" src="img/pijl.png">
                             <img class="radFoto" src="img/dRad.png">
                         </div>
@@ -43,7 +43,7 @@ require('header_loggedin.php');
                 <div class="row mt-5">
                     <div class="col-md-12 col-6 rad">
 
-                        <div class="rad">
+                        <div class="rad ml-5 mb-4">
                             <img class="pijl" src="img/pijl.png">
                             <img class="radFoto" src="img/dRad.png">
                         </div>
