@@ -39,12 +39,12 @@ if(!isset($_SESSION['ingelogd'])){
             </div>
 
             <!-- Voor meer plezier uncomment dit -->
-            <div>
+           <!--  <div>
                 <div class="rad">
                     <img src="img/dRad.png">
                 </div>
                 <img class="pijl" src="img/pijl.png">
-            </div>
+            </div> -->
         </div>
     </main>
     
