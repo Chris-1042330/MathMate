@@ -29,14 +29,14 @@ div {
 	position: relative;
 }
 
-button{
+.radButton{
 	margin-right: 200px;
 	font-size: 25px;
 	background-color: red;
 	color: yellow;
 }
 
-button:hover{
+.radButton:hover{
 	background-color: yellow;
 	color: red;
 	transition: 1.5s;
