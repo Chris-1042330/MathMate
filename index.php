@@ -14,14 +14,14 @@ require('header_loggedin.php');
         <!-- <script src="js/home.js"></script>  -->
     </head>
         <main class="container-fluid">
-            <div id="HomeSlide" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
+            <section id="HomeSlide" class="carousel slide" data-ride="carousel">
+                <section class="carousel-inner">
                     <ol class="carousel-indicators" style="padding-bottom: 2%;">
                         <li data-target="#HomeSlide" data-slide-to="0" class="active"></li>
                         <li data-target="#HomeSlide" data-slide-to="1"></li>
                         <li data-target="#HomeSlide" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-item active">
+                    <section class="carousel-item active">
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
                                 <h1 class="display-4">Welkom bij MathMate!</h1>
@@ -35,8 +35,8 @@ require('header_loggedin.php');
                                 <img class="img-slide" src="img/mascotte.png" alt="Hier hoort afbeelding"> 
                             </section>
                         </section>
-                    </div>
-                    <div class="carousel-item">
+                    </section>
+                    <section class="carousel-item">
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
                                 <h1 class="display-4">Rekenpagina!</h1>
@@ -50,8 +50,8 @@ require('header_loggedin.php');
                                 <img class="img-slide" src="img/rekenpagina.png" alt="Hier hoort afbeelding"> 
                             </section>
                         </section>
-                    </div>
-                    <div class="carousel-item">
+                    </section>
+                    <section class="carousel-item">
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
                                 <h1 class="display-4">Rad van Fortuin!</h1>
@@ -65,9 +65,9 @@ require('header_loggedin.php');
                                 <img class="img-slide" src="img/dRad.png" alt="Hier hoort afbeelding"> 
                             </section>
                         </section>
-                    </div>
-                </div>
-            </div>
+                    </section>
+                </section>
+            </section>
             <section class="row Ad">
                 <a class="card col-md-3 Ads align-items-center" href="rekenpagina.php">
                     <section class="card-body">
