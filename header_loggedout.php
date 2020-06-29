@@ -25,7 +25,7 @@
                     </section>
                 </section>
             <nav class="desktopNav navbar col justify-content-end align-items-center">
-                <a class="nav-link btn" href="login.php">Inloggen</a>
+                <a class="nav-link btn" href="inlogpagina.php">Inloggen</a>
                 <a class="nav-link btn" href="register.php">Registreren</a>
             </nav>
         </header>
