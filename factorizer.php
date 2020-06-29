@@ -2,7 +2,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['ingelogd'])){
-    header("Location: inlogpagina.php");
+    header("Location: presentatie.php");
 }
 require('header_loggedin.php');
 ?>
