@@ -37,14 +37,6 @@ require('header_loggedin.php');
                 </div>
                 <img class="pijl" src="img/pijl.png">
             </div>
-
-            <!-- Voor meer plezier uncomment dit -->
-            <!-- <div>
-                <div class="rad">
-                    <img src="img/dRad.png">
-                </div>
-                <img class="pijl" src="img/pijl.png">
-            </div> -->
         </div>
     </main>
     
