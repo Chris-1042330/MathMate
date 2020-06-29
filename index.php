@@ -26,7 +26,6 @@ require('header_loggedin.php');
                             <section class="col-md">
                                 <h1 class="display-4">Welkom bij MathMate!</h1>
                                 <p class="lead">De ideale website voor jouw rekenbehoeften!</p>
-                                <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
                                 <a class="btn btn-primary" href="presentatie.php" role="button">Leer meer over ons!</a>
@@ -41,11 +40,10 @@ require('header_loggedin.php');
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
                                 <h1 class="display-4">Rekenpagina!</h1>
-                                <p class="lead">Lorem Ipsum.</p>
-                                <p>Lorem ipsum.</p> 
+                                <p class="lead">Makkelijk rekenen dankzij onze rekenpagina!</p>
                                 <hr class="my-4">
                                 <p class="lead">
-                                <a class="btn btn-primary" href="rekenpagina.php" role="button">Leer meer over ons!</a>
+                                <a class="btn btn-primary" href="rekenpagina.php" role="button">Klik hier om uit te proberen</a>
                                 </p>
                             </section>
                             <section class="col-md">
@@ -56,12 +54,11 @@ require('header_loggedin.php');
                     <div class="carousel-item">
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
-                                <h1 class="display-4">Dobbelstenen!</h1>
-                                <p class="lead">Lorem Ipsum.</p>
-                                <p>Lorem ipsum.</p> 
+                                <h1 class="display-4">Rad van Fortuin!</h1>
+                                <p class="lead">Krijg veel geluk met onze Rad van Fortuin!</p>
                                 <hr class="my-4">
                                 <p class="lead">
-                                <a class="btn btn-primary" href="dobbelstenen.php" role="button">Leer meer over ons!</a>
+                                <a class="btn btn-primary" href="dobbelstenen.php" role="button">Klik hier om uit te proberen</a>
                                 </p>
                             </section>
                             <section class="col-md">
