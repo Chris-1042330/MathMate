@@ -61,7 +61,11 @@
                         <input type="email" name="email" placeholder="Email Address">
                         <input type="submit" class="btn btn-secondary px-4"  name="submit" value="Registreren">
                     </form>
-                <a href="inlogpagina.php">Inloggen</a>
+                    <section class="register_form">
+                        <a href="inlogpagina.php" >
+                            <button class="btn btn-secondary" type="submit" name="submit">Inloggen</button>
+                        </a>
+                    </section>
             </section>
         </section>
 

@@ -63,12 +63,14 @@
 }
 
 
-
+#HomeSlide .carousel-inner{
+    height: 100% ;
+}
 .carousel-indicators li{
     background-color: var(--color3);
 }
 
-.mascotte{
+.img-slide{
     margin: auto;
 }
 .Ad{
@@ -85,14 +87,10 @@
         background-size: contain;
         background-repeat: no-repeat;
     }
-    /* .Ad a:nth-child(2){
-        background-color: black;
-    } */
-    .Ad a:nth-child(4){
-        background-color: black;
-    }
-    .Ad a:nth-child(5){
-        background-color: black;
+    .Ad a:nth-child(2){
+        background-image: url("../img/rekenpagina.png");
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     .HeadAd{
         max-width: 92%;

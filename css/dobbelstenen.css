@@ -1,7 +1,7 @@
 .container{
 	overflow: auto;
 	clear: both;
-}
+}  
 
 div {
 	position: relative;
@@ -9,15 +9,7 @@ div {
 }
 
 .rad {
-	width: 500px;
-	height: 500px;
-/*	background-image: url("../img/dRad.png");*/
-	background-size: cover;
-	display: block;
-}
-
-.rad p {
-	font-size: 45px;
+	width: 100%;
 }
 
 .pijl{
@@ -26,9 +18,9 @@ div {
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
-	top: -60px;
-	left: -30px;
-	right: 0;
+	top: -40px;
+	left: calc(50% - 25px);
+	z-index: 99
 }
 
 #waarde {
@@ -37,14 +29,14 @@ div {
 	position: relative;
 }
 
-button{
+.radButton{
 	margin-right: 200px;
 	font-size: 25px;
 	background-color: red;
 	color: yellow;
 }
 
-button:hover{
+.radButton:hover{
 	background-color: yellow;
 	color: red;
 	transition: 1.5s;
