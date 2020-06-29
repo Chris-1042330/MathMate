@@ -41,11 +41,11 @@ require('header_loggedin.php');
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
                                 <h1 class="display-4">Rekenpagina!</h1>
-                                <p class="lead">Lorem Ipsum.</p>
+                                <p class="lead">Makkelijk rekenen dankzij onze rekenpagina!</p>
                                 <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
-                                <a class="btn btn-primary" href="rekenpagina.php" role="button">Leer meer over ons!</a>
+                                <a class="btn btn-primary" href="rekenpagina.php" role="button">Klik hier om uit te proberen</a>
                                 </p>
                             </section>
                             <section class="col-md">
@@ -56,12 +56,12 @@ require('header_loggedin.php');
                     <div class="carousel-item">
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
-                                <h1 class="display-4">Dobbelstenen!</h1>
-                                <p class="lead">Lorem Ipsum.</p>
+                                <h1 class="display-4">Rad van Fortuin!</h1>
+                                <p class="lead">Krijg veel geluk met onze Rad van Fortuin!</p>
                                 <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
-                                <a class="btn btn-primary" href="dobbelstenen.php" role="button">Leer meer over ons!</a>
+                                <a class="btn btn-primary" href="dobbelstenen.php" role="button">Klik hier om uit te proberen</a>
                                 </p>
                             </section>
                             <section class="col-md">
