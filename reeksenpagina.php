@@ -3,7 +3,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['ingelogd'])){
-    header("Location: inlogpagina.php");
+    header("Location: presentatie.php");
 }
 require('header_loggedin.php');
 ?>
@@ -19,8 +19,8 @@ require('header_loggedin.php');
                 <p class="display-4 ">Reeks</p>
                 <section class="veld">
                     <input type="number" id="invoer" placeholder="Voer hier een getal in"><br>
-                    <button onclick="Fibonacci()" style="width: 45%;">Fibonacci</button>
-                    <button onclick="PriemgetallenZien()" style="width: 45%;">Priemgetallen</button>
+                    <button onclick="Fibonacci()" style="width: 45%;">Fibonacci</button><!--  -
+                    --><button onclick="PriemgetallenZien()" style="width: 45%;">Priemgetallen</button>
                 </section>
             </section>
             <section class="col-lg jumbotron rounded">

@@ -1,6 +1,5 @@
 <?php
 session_start();
 session_destroy();
-header('Location: inlogpagina.php')
-
+header('Location: presentatie.php')
 ?>

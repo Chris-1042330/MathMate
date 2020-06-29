@@ -1,7 +1,7 @@
-.container{
+/* .container{
 	overflow: auto;
 	clear: both;
-} 
+}  */
 div {
 	position: relative;
 	display: flex;
@@ -36,7 +36,7 @@ div {
 	position: relative;
 }
 
-button{
+main button{
 	margin-right: 200px;
 	font-size: 25px;
 	background-color: red;

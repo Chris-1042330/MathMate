@@ -3,9 +3,9 @@
 <?php
 session_start();
 if(!isset($_SESSION['ingelogd'])){
-    header("Location: inlogpagina.php");
+    header("Location: presentatie.php");
 }
-// require('header_loggedin.php');
+require('header_loggedin.php');
 ?>
 <head>
     <meta charset="utf-8">
@@ -20,7 +20,7 @@ if(!isset($_SESSION['ingelogd'])){
     <script src='js/raderen.js'></script>
 </head>
 <body>
-    <main class="container">
+    <main class="container-fluid">
         <button type="button" onclick='draaiRad()'>Draai</button><br>
         <button type="button" onclick='reset()'>reset</button>
             <div>
@@ -37,14 +37,6 @@ if(!isset($_SESSION['ingelogd'])){
                 </div>
                 <img class="pijl" src="img/pijl.png">
             </div>
-
-            <!-- Voor meer plezier uncomment dit -->
-           <!--  <div>
-                <div class="rad">
-                    <img src="img/dRad.png">
-                </div>
-                <img class="pijl" src="img/pijl.png">
-            </div> -->
         </div>
     </main>
     
