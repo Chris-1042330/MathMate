@@ -26,7 +26,6 @@ require('header_loggedin.php');
                             <section class="col-md">
                                 <h1 class="display-4">Welkom bij MathMate!</h1>
                                 <p class="lead">De ideale website voor jouw rekenbehoeften!</p>
-                                <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
                                 <a class="btn btn-primary" href="presentatie.php" role="button">Leer meer over ons!</a>
@@ -42,7 +41,6 @@ require('header_loggedin.php');
                             <section class="col-md">
                                 <h1 class="display-4">Rekenpagina!</h1>
                                 <p class="lead">Makkelijk rekenen dankzij onze rekenpagina!</p>
-                                <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
                                 <a class="btn btn-primary" href="rekenpagina.php" role="button">Klik hier om uit te proberen</a>
@@ -58,7 +56,6 @@ require('header_loggedin.php');
                             <section class="col-md">
                                 <h1 class="display-4">Rad van Fortuin!</h1>
                                 <p class="lead">Krijg veel geluk met onze Rad van Fortuin!</p>
-                                <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
                                 <a class="btn btn-primary" href="dobbelstenen.php" role="button">Klik hier om uit te proberen</a>
