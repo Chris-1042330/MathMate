@@ -1,5 +1,5 @@
 function draaiRad(){
-	var rads = document.getElementsByClassName('rad');
+	var rads = document.getElementsByClassName('radFoto');
 
 	var rand;
 	var randSec;
