@@ -12,7 +12,6 @@ $menu = [
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>Home | MathMate</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -21,7 +20,7 @@ $menu = [
     <body>
         <header class="row align-items-center w-100 h-100">
             <section class="col-3 ">
-                <img src="img/logo.png" class="img logo">
+            <a href="index.php"><img src="img/logo.png" class="img logo"></a>
             </section>
                 <section class="dropdown mobileNav col justify-content-end">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

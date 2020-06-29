@@ -15,11 +15,17 @@ input{
     padding-left: 2%;
     padding-right: 1%;
     font-size: 120%;
+    height: 40px;
 }
     #invoer{
         width: 90%;
-        height: 40px;
     }
+    #invoerB{
+        width: 68%;
+    }
+    #talBegin, #talEinde{
+        width: 10%;
+    } 
     .veld button{
         height: 60px;
     }

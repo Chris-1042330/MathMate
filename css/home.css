@@ -68,7 +68,7 @@
     background-color: var(--color3);
 }
 
-.mascotte{
+.img-slide{
     margin: auto;
 }
 .Ad{
@@ -84,15 +84,6 @@
         background-image: url("../img/logo.png");
         background-size: contain;
         background-repeat: no-repeat;
-    }
-    /* .Ad a:nth-child(2){
-        background-color: black;
-    } */
-    .Ad a:nth-child(4){
-        background-color: black;
-    }
-    .Ad a:nth-child(5){
-        background-color: black;
     }
     .HeadAd{
         max-width: 92%;

@@ -4,9 +4,9 @@
                 <img src="img/logo.png" class="img-fluid logo">
             </section>
             <nav class="navbar col-sm justify-content-end">
-                <a class="nav-link" href="">FAQ</a>
-                <a class="nav-link" href="">Contact</a>
-                <a class="nav-link" href="">Over Ons</a>
+                <a class="nav-link" href="presentatie.php">Presentatiepagina</a>
+                <!-- <a class="nav-link" href="">Contact</a>
+                <a class="nav-link" href="">Over Ons</a> -->
             </nav>
         </footer>
     <!-- Bootstrap JS -->

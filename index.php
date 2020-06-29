@@ -25,43 +25,46 @@ require('header_loggedin.php');
                         <section class="jumbotron row mt-4 HeadAd align-items-center">
                             <section class="col-md">
                                 <h1 class="display-4">Welkom bij MathMate!</h1>
-                                <p class="lead">Lorem Ipsum.</p>
+                                <p class="lead">De ideale website voor jouw rekenbehoeften!</p>
                                 <p>Lorem ipsum.</p> 
                                 <hr class="my-4">
                                 <p class="lead">
                                 <a class="btn btn-primary" href="presentatie.php" role="button">Leer meer over ons!</a>
                                 </p>
                             </section>
-                        <section class="col-md">
-                            <img class="mascotte" src="img/mascotte.png" alt="Hier hoort afbeelding"> 
+                            <section class="col-md">
+                                <img class="img-slide" src="img/mascotte.png" alt="Hier hoort afbeelding"> 
+                            </section>
                         </section>
-                    </section>
-                </div>
-                <div class="carousel-item">
-                    <section class="jumbotron row mt-4 HeadAd align-items-center">
-                        <section class="col-md">
-                            <h1 class="display-4">Welkom bij MathMate!</h1>
-                            <p class="lead">Lorem Ipsum.</p>
-                            <p>Lorem ipsum.</p> 
-                            <hr class="my-4">
-                            <p class="lead">
-                              <a class="btn btn-primary" href="about.php" role="button">Leer meer over ons!</a>
-                            </p>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="jumbotron row mt-4 HeadAd align-items-center">
+                            <section class="col-md">
+                                <h1 class="display-4">Rekenpagina!</h1>
+                                <p class="lead">Lorem Ipsum.</p>
+                                <p>Lorem ipsum.</p> 
+                                <hr class="my-4">
+                                <p class="lead">
+                                <a class="btn btn-primary" href="about.php" role="button">Leer meer over ons!</a>
+                                </p>
+                            </section>
+                            <section class="col-md">
+                            </section>
                         </section>
-                    </section>
-                </div>
-                <div class="carousel-item">
-                    <section class="jumbotron row mt-4 HeadAd align-items-center">
-                        <section class="col-md">
-                            <h1 class="display-4">Welkom bij MathMate!</h1>
-                            <p class="lead">Lorem Ipsum.</p>
-                            <p>Lorem ipsum.</p> 
-                            <hr class="my-4">
-                            <p class="lead">
-                              <a class="btn btn-primary" href="about.php" role="button">Leer meer over ons!</a>
-                            </p>
+                    </div>
+                    <div class="carousel-item">
+                        <section class="jumbotron row mt-4 HeadAd align-items-center">
+                            <section class="col-md">
+                                <h1 class="display-4">Welkom bij MathMate!</h1>
+                                <p class="lead">Lorem Ipsum.</p>
+                                <p>Lorem ipsum.</p> 
+                                <hr class="my-4">
+                                <p class="lead">
+                                <a class="btn btn-primary" href="about.php" role="button">Leer meer over ons!</a>
+                                </p>
+                            </section>
                         </section>
-                    </section>
+                    </div>
                 </div>
             </div>
             <section class="row Ad">
@@ -76,14 +79,14 @@ require('header_loggedin.php');
                     </section>
                 </a>
                 <section class="w-100 line"></section>
-                <a class="card col-md-3 Ads align-items-center" href="spelpagina.php">
+                <a class="card col-md-3 Ads align-items-center" href="dobbelstenen.php">
                     <section class="card-body" >
-                        <h5 class="card-title">Komt binnenkort!</h5>
+                        <h5 class="card-title">Rad van Fortuin</h5>
                     </section>
                 </a>
-                <a class="card col-md-3 Ads align-items-center" href="">
+                <a class="card col-md-3 Ads align-items-center" href="factorizer">
                     <section class="card-body">
-                        <h5 class="card-title">Komt binnenkort!</h5>
+                        <h5 class="card-title">Factor Ontbinder!</h5>
                     </section>
                 </a>
             </section>

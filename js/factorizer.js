@@ -1,3 +1,20 @@
+function Talstelsel(){
+    document.getElementById("result").innerHTML = "";
+    var invoer = document.getElementById("invoerB").value;
+    var talBegin = document.getElementById("talBegin").value;
+    var talEinde = document.getElementById("talEinde").value;
+
+    var base_convert = function(number, initial_base, change_base) {
+        if ((initial_base && change_base) <2 || (initial_base && change_base)>36)
+            return '?';
+        
+            return parseInt(number + '', initial_base)
+            .toString(change_base);
+     }
+     
+     document.getElementById("result").innerHTML = base_convert(invoer,talBegin,talEinde).toUpperCase();
+}
+
 function Ontbinden(){
     document.getElementById("result").innerHTML = "";
     var invoer = document.getElementById("invoer").value;
