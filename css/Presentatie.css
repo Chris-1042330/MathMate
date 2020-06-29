@@ -1,27 +1,20 @@
-.homepage{
-	width: 45%;
-	margin: auto;
+html{
+	background-color: rgb(244, 244, 244);
+}
+.container{
+	background-color: rgb(244, 244, 244);
 }
 
-.welkom_title{
-	font-size: 2.5rem;
-	text-align: center;
+.logo{
+	width: 25vw;
+	height: 5vw;
 }
 
-.welkom_content div{
-	margin: auto;
-	height: 50%;
+.login a, .register a{
+	color: black;
+	font-size: 20px;
 }
-.slideshow img{
-	width: 50%;
-}
-.welkom_content p{
-	color: #993333;
-	font-size: 15px;
-}
-.active {
-	border: 5px solid lime;
-}
-.row{
-	margin: 0;
+
+.line{
+	width: 100%;
 }
